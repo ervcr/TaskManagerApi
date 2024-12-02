@@ -1,0 +1,15 @@
+<form (ngSubmit)="createTask()">
+  <input type="text" id="title" [(ngModel)]="newTask.title" name="title" required placeholder="Task Title" />
+  <input type="text" id="description" [(ngModel)]="newTask.description" name="description" required placeholder="Task Description" />
+  <input type="text" id="status" [(ngModel)]="newTask.status" name="status" required placeholder="Status" />
+  <input type="datetime-local" id="dueDate" [(ngModel)]="newTask.dueDate" name="dueDate" required />
+  <button type="submit">Create Task</button>
+</form>
+
+<div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+<ul>
+  <li *ngFor="let task of tasks">
+    {{ task.title }} - {{ task.status }} - {{ task.dueDate }}
+  </li>
+</ul>

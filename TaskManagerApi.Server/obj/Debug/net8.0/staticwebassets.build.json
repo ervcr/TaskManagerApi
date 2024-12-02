@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "ujf/wM2isv1GGVwMR4GIPwEs9L9n2S+jUbtyI4So7pw=",
+  "Source": "TaskManagerApi.Server",
+  "BasePath": "_content/TaskManagerApi.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Ernest\\Pictures\\TaskManagerApi\\taskmanagerapi.client\\taskmanagerapi.client.esproj",
+      "Version": 2,
+      "Source": "taskmanagerapi.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

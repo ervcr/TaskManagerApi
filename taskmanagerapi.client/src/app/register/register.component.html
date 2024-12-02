@@ -1,0 +1,8 @@
+<div>
+  <input type="text" [(ngModel)]="username" placeholder="Username" />
+  <input type="password" [(ngModel)]="password" placeholder="Password" />
+  <input type="email" [(ngModel)]="email" placeholder="Email" />
+  <button (click)="register()">Register</button>
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+  <button type="button" (click)="goToLogin()">Go to Login</button>
+</div>
